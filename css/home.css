@@ -1,0 +1,28 @@
+#home-slideshow article {
+  position: relative;
+  text-align: center;
+}
+#home-slideshow img {
+  max-width: 100%;
+  max-height: 60vh;
+  margin: auto;
+}
+
+#home-slideshow h3 {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  line-height: 2;
+  padding-right: 1em;
+  margin: 0;
+}
+#home-slideshow a {
+  color: inherit;
+}
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+

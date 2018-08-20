@@ -1,0 +1,56 @@
+@import "menu.css";
+
+#container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+button, textarea, input {
+  padding: 0 8px;
+  font-size: 1.3em;
+  line-height: 1.2;
+}
+textarea {
+  display: block;
+  height: 200px;
+  min-width: 300px;
+}
+button {
+  padding: 1em 1.5em;
+  border-radius: 5px;
+}
+form > p:last-child {
+  text-align: right;
+}
+
+p.message {
+	padding: 1em 1.2em;
+	border-radius: 3px;
+}
+p.success { color: forestgreen; background-color: honeydew; }
+p.warning { color: yellow; background-color: lightsalmon; }
+p.error { color: crimson; background-color: lightpink; }
+
+.item-listing {
+	padding: 0;
+}
+.item-listing img {
+  float: left;
+  height: 100px;
+  width: auto;
+  margin-right: 1em;
+}
+
+.has-create-inputs:not(.show-create) ~ label,
+.has-create-inputs:not(.show-create) ~ br {
+  display: none;
+}
+
+fieldset {
+  margin-bottom: 1em;
+}
+
+fieldset img {
+  height: 100px;
+  width: auto;
+  margin-right: 0.5em;
+}

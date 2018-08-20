@@ -1,0 +1,12 @@
+nav ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  justify-content: space-between;
+}
+nav a {
+  padding: 6px;
+}
+nav a:hover {
+  color: cadetblue;
+}
